@@ -1,0 +1,60 @@
+.navbar__logo {
+    width: 70px;
+}
+
+.navbar-nav {
+    gap: 32px;
+}
+
+.container-fluid .navbar-brand {
+    margin-right: 50px;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(119, 126, 145);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.navbar-container {
+    justify-content: space-between;
+}
+
+.navbar__contacts-header {
+    gap: 20px;
+}
+
+.contacts-header__tel {
+    color: rgb(119, 126, 145);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+.contacts-header__link {
+    transition: transform .2s ease-in-out;
+}
+
+.contacts-header__link:hover {
+    transform: scale(1.1);
+}
+
+.contacts-header__link:focus {
+    transform: scale(1.1);
+}
+
+.contacts-header__link:focus {
+    transform: scale(1.1);
+}
+
+@media (max-width: 992px) { 
+
+
+    .navbar-container .navbar-nav {
+        align-items: center;
+        margin-bottom: 32px;
+    }
+ }
+

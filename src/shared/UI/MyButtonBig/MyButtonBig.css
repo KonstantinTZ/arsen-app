@@ -1,0 +1,26 @@
+.MyButtonBig {
+    padding: 24px 16px;
+    background-color: black;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 90px;
+    color: white;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.MyButtonBig:hover {
+    background-color: #b7a552;
+    border-color: #e6ddbe;
+}
+
+.MyButtonBig:focus {
+    background-color: #b7a552;
+    border-color: #e6ddbe;
+}   
+
+.MyButtonBig:active {
+    background-color: #b7a552;
+    border-color: #e6ddbe;
+}

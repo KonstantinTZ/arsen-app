@@ -1,0 +1,64 @@
+.modal.show{
+    display: block;
+}
+
+
+.modal-bottom-btn {
+    padding: 12px 16px;
+    background-color: black;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 90px;
+    color: white;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.modal-bottom-btn:hover {
+    background-color: #b7a552;
+    border-color: #e6ddbe;
+}
+
+.modal-bottom-btn:focus {
+    background-color: #b7a552;
+    border-color: #e6ddbe;
+}   
+
+.modal-bottom-btn:active {
+    background-color: #b7a552;
+    border-color: #e6ddbe;
+}
+
+
+.modal-card-subtitle {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+.modal-descr{
+    color: rgb(149, 161, 187);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.modal-contacts {
+    gap: 10px;
+}
+
+.modal-header {
+    border-bottom: none!important;
+}
+.modal-footer {
+    border-top: none!important;
+}
+.modal {
+    background-color: rgba(0,0,0, 0.2);
+}
