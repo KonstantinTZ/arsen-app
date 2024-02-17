@@ -1,0 +1,20 @@
+.map__section {
+    padding: 72px;
+}
+
+
+
+@media (max-width: 992px) { 
+
+
+    .map__row {
+        flex-direction: column-reverse;
+    }
+
+    .map__section {
+        padding: 0;
+        margin-bottom: 40px;
+    }
+
+
+ }

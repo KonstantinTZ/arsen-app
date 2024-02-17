@@ -1,0 +1,21 @@
+.contact-us__container {
+    padding: 74px 0;
+    background-color: rgb(244, 245, 246);
+}
+
+.contact-us__section {
+    background-color: rgb(244, 245, 246);
+}
+
+
+/* @media (max-width: 992px) { 
+
+
+    .contact-us__row {
+        flex-direction: column;
+    }
+
+  
+ } */
+
+

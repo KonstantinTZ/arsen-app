@@ -1,0 +1,10 @@
+.examples {
+    padding: 74px 0;
+}
+
+.examples__title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 52px;
+}
