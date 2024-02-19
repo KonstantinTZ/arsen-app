@@ -11,7 +11,7 @@ export function TextBox() {
       <h1 className='text-box__title text-white'>
         {t('hero.heroTitle')}
       </h1>
-      <p className='text-box__descr text-white'>
+      <p className='text-box__descr text-white mb-4'>
         {t('hero.heroDescr')}
       </p>
       <a href="#contact-us" className='text-box__button'>

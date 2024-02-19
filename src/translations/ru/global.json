@@ -22,7 +22,7 @@
             {
                 "cardId": 1,
                 "cardTitle": "Уборка могилы на кладбище",
-                "cardPrice": "Цена договорная",
+                "cardPrice": "Цена: от 15 000 AMD",
                 "cardDescrTitle":"Список выполняемых работ",
                 "cardImageGroupName":"card-cleaning",
                 "cardMoreBtn" : "Подробнее",
@@ -39,7 +39,7 @@
             {
                 "cardId": 2,
                 "cardTitle": "Строительство места захоронения",
-                "cardPrice": "Цена договорная",
+                "cardPrice": "Цена: от 30 000 AMD / м2",
                 "cardDescrTitle":"Список выполняемых работ",
                 "cardImageGroupName":"card-building",
                 "cardMoreBtn" : "Подробнее",
@@ -53,7 +53,7 @@
             {
                 "cardId": 3,
                 "cardTitle": "Реставрация места захоронения",
-                "cardPrice": "Цена договорная",
+                "cardPrice": "Цена: от 5 000 AMD / м2",
                 "cardDescrTitle":"Список выполняемых работ",
                 "cardImageGroupName":"card-restouration",
                 "cardMoreBtn" : "Подробнее",
@@ -69,7 +69,7 @@
             {
                 "cardId": 4,
                 "cardTitle": "Озеленение мест захоронений",
-                "cardPrice": "Цена договорная",
+                "cardPrice": "Цена: от 15 000 AMD / м2",
                 "cardDescrTitle":"Список выполняемых работ",
                 "cardImageGroupName":"card-grass",
                 "cardMoreBtn" : "Подробнее",
@@ -85,7 +85,7 @@
             {
                 "cardId": 5,
                 "cardTitle": "Покрытие места захоронения насыпным покрытием",
-                "cardPrice": "Цена договорная",
+                "cardPrice": "Цена: от 1 000 AMD / м2",
                 "cardDescrTitle":"Список выполняемых работ",
                 "cardImageGroupName":"card-sand",
                 "cardMoreBtn" : "Подробнее",
@@ -129,7 +129,7 @@
             {
                 "cardId": 8,
                 "cardTitle": "Изготовление памятников, надгробных камней, скульптур",
-                "cardPrice": "Цена договорная",
+                "cardPrice": "Цена: от 15 000 AMD / м2",
                 "cardDescrTitle":"Список выполняемых работ",
                 "cardImageGroupName":"card-monument",
                 "cardMoreBtn" : "Подробнее",
@@ -145,7 +145,7 @@
             {
                 "cardId": 9,
                 "cardTitle": "Обслуживание памятников",
-                "cardPrice": "Цена договорная",
+                "cardPrice": "Цена: от 30 000 AMD",
                 "cardDescrTitle":"Список выполняемых работ",
                 "cardImageGroupName":"card-monument-restouration",
                 "cardMoreBtn" : "Подробнее",

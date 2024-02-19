@@ -22,7 +22,7 @@
             {
                 "cardId": 1,
                 "cardTitle": "Գերեզմանի մաքրում",
-                "cardPrice": "Գինը ըստ գերեզմանի չափերի",
+                "cardPrice": "Գինը սկսած 15.000 AMD",
                 "cardDescrTitle":"Կատարված աշխատանքների ցանկը",
                 "cardImageGroupName":"card-cleaning",
                 "cardMoreBtn" : "Ավելի մանրամասն",
@@ -39,7 +39,7 @@
             {
                 "cardId": 2,
                 "cardTitle": "Գերեզմանի կառուցում",
-                "cardPrice": "Գինը ըստ գերեզմանի չափերի",
+                "cardPrice": "Գինը սկսած 1ք/մ 30.000 AMD",
                 "cardDescrTitle":"Կատարված աշխատանքների ցանկը",
                 "cardImageGroupName":"card-building",
                 "cardMoreBtn" : "Ավելի մանրամասն",
@@ -53,7 +53,7 @@
             {
                 "cardId": 3,
                 "cardTitle": "Գերեզմանի վերականգնում",
-                "cardPrice": "Գինը ըստ գերեզմանի չափերի",
+                "cardPrice": "Գինը սկսած 1ք/մ 5.000 AMD",
                 "cardDescrTitle":"Կատարված աշխատանքների ցանկը",
                 "cardImageGroupName":"card-restouration",
                 "cardMoreBtn" : "Ավելի մանրամասն",
@@ -69,7 +69,7 @@
             {
                 "cardId": 4,
                 "cardTitle": "Գերեզմանի կանաչապատում",
-                "cardPrice": "Գինը ըստ գերեզմանի չափերի",
+                "cardPrice": "Գինը սկսած 1ք/մ 15.000 AMD",
                 "cardDescrTitle":"Կատարված աշխատանքների ցանկը",
                 "cardImageGroupName":"card-grass",
                 "cardMoreBtn" : "Ավելի մանրամասն",
@@ -85,7 +85,7 @@
             {
                 "cardId": 5,
                 "cardTitle": "Գերեզմանի մոլախոտերի մաքրում",
-                "cardPrice": "Գինը ըստ գերեզմանի չափերի",
+                "cardPrice": "Գինը սկսած 1ք/մ 1.000 AMD",
                 "cardDescrTitle":"Կատարված աշխատանքների ցանկը",
                 "cardImageGroupName":"card-sand",
                 "cardMoreBtn" : "Ավելի մանրամասն",
@@ -100,7 +100,7 @@
             {
                 "cardId": 6,
                 "cardTitle": "Տարեկան բաժանորդագրություն",
-                "cardPrice": "Գինը՝ սկսած 30.000 AMD",
+                "cardPrice": "Գինը սկսած 30.000 AMD",
                 "cardDescrTitle":"Կատարված աշխատանքների ցանկը",
                 "cardImageGroupName":"card-aboniment",
                 "cardMoreBtn" : "Ավելի մանրամասն",
@@ -115,7 +115,7 @@
             {
                 "cardId": 7,
                 "cardTitle": "Ծաղիկներ դնել գերեզմանին",
-                "cardPrice": "Գինը՝ սկսած 10.000 AMD",
+                "cardPrice": "Գինը սկսած 10.000 AMD",
                 "cardDescrTitle":"Կատարված աշխատանքների ցանկը",
                 "cardImageGroupName":"card-flowers",
                 "cardMoreBtn" : "Ավելի մանրամասն",
@@ -129,7 +129,7 @@
             {
                 "cardId": 8,
                 "cardTitle": "Հուշարձանների, տապանաքարերի, քանդակների պատրաստում",
-                "cardPrice": "Գինը ըստ գերեզմանի չափերի",
+                "cardPrice": "Գինը սկսած 1ք/մ 15.000",
                 "cardDescrTitle":"Կատարված աշխատանքների ցանկը",
                 "cardImageGroupName":"card-monument",
                 "cardMoreBtn" : "Ավելի մանրամասն",
@@ -145,7 +145,7 @@
             {
                 "cardId": 9,
                 "cardTitle": "Հուշարձանների պահպանում",
-                "cardPrice": "Գինը ըստ գերեզմանի չափերի",
+                "cardPrice": "Գինը սկսած 30.000 AMD",
                 "cardDescrTitle":"Կատարված աշխատանքների ցանկը",
                 "cardImageGroupName":"card-monument-restouration",
                 "cardMoreBtn" : "Ավելի մանրամասն",
