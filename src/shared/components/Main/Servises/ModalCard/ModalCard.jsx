@@ -6,7 +6,7 @@ import { ListItem } from './ListItem/ListItem';
 
 
 
-export const ModalCard = ({ setIsModalOpend,imgPath, modalTitle, modalPrice, descrListArr  }) => {
+export const ModalCard = ({ setIsModalOpend,imgPath, modalTitle, modalPrice, descrListArr, modalDescrTitle, modalCloseBtn  }) => {
 
 
   return ReactDOM.createPortal((
@@ -31,7 +31,7 @@ export const ModalCard = ({ setIsModalOpend,imgPath, modalTitle, modalPrice, des
                 alt="demonstration of works" className='col-lg-6 col-12 mb-4' />
               </div>
               <p className='text-black mb-2'>
-                Список выполняемых работ
+                {modalDescrTitle}
               </p>
               <ul className=' mb-3'>
                 {
@@ -48,7 +48,7 @@ export const ModalCard = ({ setIsModalOpend,imgPath, modalTitle, modalPrice, des
             </div>
           </div>
           <div className="modal-footer">
-            <button type="button" className="modal-bottom-btn" onClick={() => { setIsModalOpend(false) }}>Закрыть</button>
+            <button type="button" className="modal-bottom-btn" onClick={() => { setIsModalOpend(false) }}>{modalCloseBtn}</button>
           </div>
         </div>
       </div>

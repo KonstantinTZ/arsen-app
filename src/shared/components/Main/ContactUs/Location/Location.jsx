@@ -1,15 +1,17 @@
 import React from 'react';
 import './Location.css';
+import { useTranslation } from 'react-i18next';
 
 export function Location() {
+  const { t } = useTranslation("global")
   return (
     <div className="col-lg-6 contact-us__location location">
 
       <h4 className='location__title'>
-        Наш адрес
+        {t("addres.addresTitle")}
       </h4 >
       <p className="location__descr">
-        8-й кв-л, Чаренцаван
+        {t("addres.addresDescr")}
       </p>
 
       <iframe

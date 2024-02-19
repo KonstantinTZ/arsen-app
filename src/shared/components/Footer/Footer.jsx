@@ -1,8 +1,10 @@
 import React from 'react';
 import './Footer.css';
+import { useTranslation } from 'react-i18next';
 
 
 export function Footer() {
+  const {t} = useTranslation("global")
   return (
     <footer className='footer'>
       <div className="container">
@@ -16,7 +18,7 @@ export function Footer() {
         <div className="footer__box">
           <div className="footer__left">
             <h4 className='footer__subtitle'>
-              Контакты
+              {t("footer.footerContactsTitle")}
             </h4>
             <ul className="footer__list list-reset">
               <li className="footer__item">
@@ -73,13 +75,13 @@ export function Footer() {
                     src="https://img.icons8.com/material-sharp/24/marker.png"
                     alt="marker"
                   />&nbsp;
-                  8-й кв-л, Чаренцаван</a>
+                  {t("addres.addresDescr")}</a>
               </li>
             </ul>
           </div>
           <div className="footer__right">
             <h4 className='footer__subtitle'>
-              Мы в социальных сетях
+            {t("footer.footerSocialTitle")}
             </h4>
             <ul className="footer__list list-reset">
               <li className="footer__item">
