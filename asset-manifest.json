@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/arsen-app/static/css/main.2a29fa4e.css",
-    "main.js": "/arsen-app/static/js/main.1c80a1d5.js",
+    "main.js": "/arsen-app/static/js/main.c0422876.js",
     "static/js/592.1056ac90.chunk.js": "/arsen-app/static/js/592.1056ac90.chunk.js",
     "static/media/card-cleaning-3.jpg": "/arsen-app/static/media/card-cleaning-3.8d3e7d593864b7abb15d.jpg",
     "static/media/card-cleaning-2.jpg": "/arsen-app/static/media/card-cleaning-2.133d90f71cb7b3f4cefb.jpg",
@@ -44,11 +44,11 @@
     "static/media/logo-text-big.webp": "/arsen-app/static/media/logo-text-big.210538a5c9770ecd96bb.webp",
     "index.html": "/arsen-app/index.html",
     "main.2a29fa4e.css.map": "/arsen-app/static/css/main.2a29fa4e.css.map",
-    "main.1c80a1d5.js.map": "/arsen-app/static/js/main.1c80a1d5.js.map",
+    "main.c0422876.js.map": "/arsen-app/static/js/main.c0422876.js.map",
     "592.1056ac90.chunk.js.map": "/arsen-app/static/js/592.1056ac90.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a29fa4e.css",
-    "static/js/main.1c80a1d5.js"
+    "static/js/main.c0422876.js"
   ]
 }
