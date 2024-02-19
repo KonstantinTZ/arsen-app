@@ -5,8 +5,10 @@ import { MyButtonMedium } from '../../../../UI/MyButtonMedium/MyButtonMedium'
 
 import { orderIdGenerator } from '../../../../utils/orderIdGenerator'
 import { ModalForm } from './ModalForm';
+import { useTranslation } from 'react-i18next';
 
 export function Form() {
+  const {t} = useTranslation('global')
   let now = new Date();
 
   const form = useRef()
@@ -53,10 +55,10 @@ export function Form() {
     <div className="col-lg-6 d-flex flex-column form__container align-items-start">
       <div className="form__content">
         <h4 className='form__title'>
-          Оставьте заявку
+          {t("contaactUs.contactUsTitle")}
         </h4 >
         <p className="form__descr">
-          И наш менеджер свяжется с Вами в течении рабочего дня
+        {t("contaactUs.contactUsDesct")}
         </p>
         <form
           ref={form}
@@ -66,23 +68,31 @@ export function Form() {
           <input hidden name='order_id' value={newId} type='text' onChange={(e) => e.target.value} />
           <input hidden name='order_date' value={newDate} type='text' onChange={(e) => e.target.value} />
           <div className="form-floating mb-3"  >
-            <input type="text" className="form-control" id="floatingInput" placeholder="Ваше имя" name='order_client_name' minLength={3} maxLength={20} required disabled={isFieldDisabled}/>
-            <label htmlFor="floatingInput">Ваше имя</label>
+            <input type="text" className="form-control" id="floatingInput" placeholder="Your Name" name='order_client_name' minLength={3} maxLength={20} required disabled={isFieldDisabled}/>
+            <label htmlFor="floatingInput">
+            {t("contaactUs.contactUsFormInputFieldName")}
+              </label>
           </div>
 
           <div className="form-floating mb-3">
             <input type="tel" className="form-control" id="floatingPassword" placeholder="+7(999)999-99-99" name='order_client_phone' required disabled={isFieldDisabled}/>
-            <label htmlFor="floatingPassword">Ваш номер телефона</label>
+            <label htmlFor="floatingPassword">
+            {t("contaactUs.contactUsFormInputTel")}
+              </label>
           </div>
 
           <div className="form-floating mb-3">
             <input type="email" className="form-control" id="floatingInput2" placeholder="name@example.com" name='order_client_email' disabled={isFieldDisabled}/>
-            <label htmlFor="floatingInput2">Ваш e-mail</label>
+            <label htmlFor="floatingInput2">
+            {t("contaactUs.contactUsFormInputEmail")}
+              </label>
           </div>
 
           <div className="form-floating mb-3">
             <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style={{ height: "100px" }} name='order_message' disabled={isFieldDisabled}></textarea>
-            <label htmlFor="floatingTextarea2">Введите дополнительную информацию</label>
+            <label htmlFor="floatingTextarea2">
+            {t("contaactUs.contactUsFormInputMessage")}
+              </label>
           </div>
 
           <MyButtonMedium
@@ -92,10 +102,10 @@ export function Form() {
             {
               isLoading === false
                 ?
-                'Оставить заявку'
+                `${t("contaactUs.contactUsFormButtonText")}`
                 :
                 <div className="spinner-border text-light" role="status">
-                  <span className="visually-hidden">Загрузка...</span>
+                  <span className="visually-hidden">Loading...</span>
                 </div>
             }
           </MyButtonMedium>

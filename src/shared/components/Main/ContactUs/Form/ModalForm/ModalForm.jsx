@@ -2,10 +2,11 @@ import React from 'react';
 import './ModalForm.css';
 import ReactDOM from 'react-dom'
 import 'animate.css';
+import { useTranslation } from 'react-i18next';
 
 
 export const ModalForm = ({ setIsModalOpend, isMailSuccess }) => {
-
+  const {t} = useTranslation("global");
 
   return ReactDOM.createPortal((
 
@@ -21,17 +22,21 @@ export const ModalForm = ({ setIsModalOpend, isMailSuccess }) => {
               {
                 isMailSuccess === true
                   ? <div className="modal-success-container">
-                    <h5 className='modal-subtitle'>Ваша заявка успешно отправлена</h5>
+                    <h5 className='modal-subtitle'>
+                      {t("contaactUs.contactUsSuccessModalTitle")}
+                    </h5>
                     <p className="modal-descr">
-                      Наш менеджер свяжется с Вами в течении рабочего дня
+                    {t("contaactUs.contactUsSuccessModalDescr")}
                     </p>
                   </div>
 
 
                   : <div className="modal-fail-container">
-                    <h5 className='modal-subtitle'>Произошла ошибка отправки</h5>
+                    <h5 className='modal-subtitle'>
+                    {t("contaactUs.contactUsFailureModalTitle")}
+                    </h5>
                     <p className="modal-descr">
-                      Пожалуйста, свяжитесь с нами по следующим контактам
+                    {t("contaactUs.contactUsFailureModalDescr")}
                     </p>
                     <div className="d-flex align-items-center justify-content-center modal-contacts">
                       <a href='tel:+374(77)005266' className="contacts-header__tel contacts-header__link" activeclassname={"active"} to="/basket">

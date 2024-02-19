@@ -1,12 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';// 'react-i18next' ?
+import { useTranslation } from 'react-i18next'
 import './Navigation.css';
+;
 
 
 export function Navigation() {
+  const [activeLanguageButton, setActiveLanguageButton] = useState(true)
+  // true === am , false === ru
+  const [t, i18n] = useTranslation("global")
+  const handleChangeLanguage = (lang) => {
+    i18n.changeLanguage(lang);
+    setActiveLanguageButton(!activeLanguageButton)
+  }
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light header__navbar bg-body">
       <div className="container-fluid navbar__box">
-        <a className="navbar-brand navbar__logo-link" href="#1">
+        <a className="navbar-brand navbar__logo-link" href="#hero">
           <img
             className='navbar__logo'
             src={require('../../../../img/logo-text-big.webp')}
@@ -18,10 +27,21 @@ export function Navigation() {
         </button>
         <div className="collapse navbar-collapse navbar-container" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-link " aria-current="page" href="#hero">О нас</a>
-            <a className="nav-link " href="#examples">Галерея</a>
-            <a className="nav-link " href="#map">География работ</a>
-            <a className="nav-link " href="#contact-us">Оставить заявку</a>
+            <span className="nav-link nav-link-btn-box" aria-current="page" >
+              <button 
+              className={`lang-btn ${activeLanguageButton && " active"}`}
+              onClick ={()=>handleChangeLanguage("am")}
+              >
+                ՀԱՅ</button>
+              <button 
+              className={`lang-btn ${!activeLanguageButton && " active"}`}
+              onClick ={()=>handleChangeLanguage("ru")}
+              >
+                РУС</button>
+              </span>
+            <a className="nav-link " href="#examples">{t('navigation.gallery')}</a>
+            <a className="nav-link " href="#map">{t('navigation.geography')}</a>
+            <a className="nav-link " href="#contact-us">{t('navigation.contactUs')}</a>
           </div>
           <div className="d-flex align-items-center justify-content-center navbar__contacts-header">
             <a href='tel:+374(77)005266' className="contacts-header__tel contacts-header__link" activeclassname={"active"} to="/basket">
