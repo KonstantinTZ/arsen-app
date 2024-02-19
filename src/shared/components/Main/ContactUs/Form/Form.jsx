@@ -6,8 +6,13 @@ import { MyButtonMedium } from '../../../../UI/MyButtonMedium/MyButtonMedium'
 import { orderIdGenerator } from '../../../../utils/orderIdGenerator'
 import { ModalForm } from './ModalForm';
 import { useTranslation } from 'react-i18next';
+import { MaskedInput, createDefaultMaskGenerator } from 'react-hook-mask';
+
+const maskGenerator = createDefaultMaskGenerator('+374 99 999999');
 
 export function Form() {
+  const [telValue, setTelValue] = React.useState('');
+
   const {t} = useTranslation('global')
   let now = new Date();
 
@@ -49,6 +54,7 @@ export function Form() {
         },
       );
     e.target.reset()
+    setTelValue('')
   };
   return (
     <>
@@ -75,7 +81,18 @@ export function Form() {
           </div>
 
           <div className="form-floating mb-3">
-            <input type="tel" className="form-control" id="floatingPassword" placeholder="+7(999)999-99-99" name='order_client_phone' required disabled={isFieldDisabled}/>
+            <MaskedInput 
+             type="tel" 
+             className="form-control" 
+             value={telValue}
+             onChange={setTelValue}
+             id="floatingPassword" 
+             placeholder="+7(999)999-99-99" 
+             name='order_client_phone' 
+             required 
+             disabled={isFieldDisabled}
+             maskGenerator={maskGenerator}
+             />
             <label htmlFor="floatingPassword">
             {t("contaactUs.contactUsFormInputTel")}
               </label>
