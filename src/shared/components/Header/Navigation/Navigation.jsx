@@ -1,16 +1,15 @@
-import React, { useState } from 'react';// 'react-i18next' ?
+import React from 'react';
 import { useTranslation } from 'react-i18next'
 import './Navigation.css';
 ;
 
 
 export function Navigation() {
-  const [activeLanguageButton, setActiveLanguageButton] = useState(true)
-  // true === am , false === ru
+
   const [t, i18n] = useTranslation("global")
   const handleChangeLanguage = (lang) => {
     i18n.changeLanguage(lang);
-    setActiveLanguageButton(!activeLanguageButton)
+ 
   }
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light header__navbar bg-body">
@@ -29,12 +28,12 @@ export function Navigation() {
           <div className="navbar-nav">
             <span className="nav-link nav-link-btn-box" aria-current="page" >
               <button 
-              className={`lang-btn ${activeLanguageButton && " active"}`}
+              className={`lang-btn ${i18n.language === 'am' && " active"}`}
               onClick ={()=>handleChangeLanguage("am")}
               >
                 ՀԱՅ</button>
               <button 
-              className={`lang-btn ${!activeLanguageButton && " active"}`}
+              className={`lang-btn ${i18n.language === 'ru' && " active"}`}
               onClick ={()=>handleChangeLanguage("ru")}
               >
                 РУС</button>
@@ -56,8 +55,8 @@ export function Navigation() {
                 alt="wa logo"
               />
             </a>
-            <a href='viber://add?number=37477005266' targer='_blank' className="contacts-header__link" activeclassname={"active"} to="/basket">
-              
+            <a href='https://skobelkin.ru/viber/37477005266' targer='_blank' className="contacts-header__link" activeclassname={"active"} to="/basket">
+              {/* viber://chat?number=%2B37477005266 */}
               <img
               className="contacts-header__logo"
                 width={48}

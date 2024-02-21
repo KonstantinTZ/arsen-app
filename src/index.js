@@ -17,7 +17,7 @@ import { I18nextProvider } from 'react-i18next';
 
 i18next.init({
   interpolation: { escapeValue: false },
-  lng: "am", // какой язык грузится изначально !
+  lng: "am", // какой язык грузится изначально ! или am или ru
   resources: {
     ru: {
       global: global_ru,

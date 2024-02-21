@@ -11,7 +11,7 @@ import { MaskedInput, createDefaultMaskGenerator } from 'react-hook-mask';
 const maskGenerator = createDefaultMaskGenerator('+374 99 999999');
 
 export function Form() {
-  const [telValue, setTelValue] = React.useState('');
+  
 
   const {t} = useTranslation('global')
   let now = new Date();
@@ -23,6 +23,7 @@ export function Form() {
   const [isLoading, setIsLoading] = useState(false)
   const [isModalOpend, setIsModalOpend] = useState(false)
   const [isMailSuccess, setIsMailSuccess] = useState(false)
+  const [telValue, setTelValue] = React.useState('');
   const [isFieldDisabled, setIsFieldDisabled] = useState(false)
   // isFieldDisabled - защита от многократной отправки спама
 

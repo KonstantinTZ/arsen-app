@@ -48,7 +48,7 @@ export const ModalCard = ({ setIsModalOpend,imgPath, modalTitle, modalPrice, des
             </div>
           </div>
           <div className="modal-footer">
-            <button type="button" className="modal-bottom-btn" onClick={() => { setIsModalOpend(false) }}>{modalCloseBtn}</button>
+            <button tabIndex="-2"  type="button" className="modal-bottom-btn" onClick={() => { setIsModalOpend(false) }}>{modalCloseBtn}</button>
           </div>
         </div>
       </div>
