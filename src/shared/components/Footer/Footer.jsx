@@ -44,7 +44,7 @@ export function Footer() {
                 </a>
               </li>
               <li className="footer__item">
-                <a href="viber://add?number=37477005266" className='footer__link'>
+                <a href="https://skobelkin.ru/viber/37477005266" className='footer__link'>
                   <img
                     width={24}
                     height={24}
@@ -85,7 +85,7 @@ export function Footer() {
             </h4>
             <ul className="footer__list list-reset">
               <li className="footer__item">
-                <a href="https://www.facebook.com" className='footer__link'>
+                <a href="https://www.facebook.com/groups/412284771315393/" className='footer__link'>
                   <img
                     width={24}
                     height={24}
@@ -95,19 +95,20 @@ export function Footer() {
                   facebook
                 </a>
               </li>
-              <li className="footer__item">
-                <a href="https://www.tiktok.com" className='footer__link'>
-                  <img
+              {/* <li className="footer__item"> */}
+                {/* <a href="https://www.tiktok.com" className='footer__link'> */}
+                  {/* пока не переименован, как только будет сделано вставить ссылку, расскоментировать */}
+                  {/* <img
                     width={24}
                     height={24}
                     src="https://img.icons8.com/material/24/tiktok.png"
                     alt="tiktok"
-                  />&nbsp;
-                  tiktok
-                </a>
-              </li>
+                  />&nbsp; */}
+                  {/* tiktok */}
+                {/* </a> */}
+              {/* </li> */}
               <li className="footer__item">
-                <a href="https://www.instagram.com" className='footer__link'>
+                <a href="https://www.instagram.com/mimoracir/" className='footer__link'>
                   <img
                     width={24}
                     height={24}

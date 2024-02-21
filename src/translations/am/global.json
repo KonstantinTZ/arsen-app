@@ -129,7 +129,7 @@
             {
                 "cardId": 8,
                 "cardTitle": "Հուշարձանների, տապանաքարերի, քանդակների պատրաստում",
-                "cardPrice": "Գինը սկսած 1ք/մ 15.000",
+                "cardPrice": "Գինը սկսած 1ք/մ 15.000 AMD",
                 "cardDescrTitle":"Կատարված աշխատանքների ցանկը",
                 "cardImageGroupName":"card-monument",
                 "cardMoreBtn" : "Ավելի մանրամասն",
@@ -163,8 +163,8 @@
     "contaactUs" : {
         "contactUsTitle": "Թողնել հայտ",
         "contactUsDesct": "Մեր աշխատակիցը  կկապվի Ձեզ հետ աշխատանքային օրվա ընթացքում",
-        "contactUsFormInputFieldName": "Ձեր անունը",
-        "contactUsFormInputTel": "Ձեր հեռախոսի համարը",
+        "contactUsFormInputFieldName": "Ձեր անունը *",
+        "contactUsFormInputTel": "Ձեր հեռախոսի համարը *",
         "contactUsFormInputEmail":"Ձեր էլէկտրոնային փոստը",
         "contactUsFormInputMessage": "Մուտքագրեք լրացուցիչ տեղեկություններ",
         "contactUsFormButtonText": "Ներկայացրե՛ք Ձեր դիմումը",
