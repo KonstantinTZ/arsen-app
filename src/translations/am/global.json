@@ -171,7 +171,8 @@
         "contactUsSuccessModalTitle": "Ձեր դիմումը հաջողությամբ ուղարկվել է",
         "contactUsSuccessModalDescr": "Աշխատակիցը կկապվի Ձեզ հետ մեկ աշխատանքային օրվա ընթացքում",
         "contactUsFailureModalTitle": "ուղարկման սխալ է եղե",
-        "contactUsFailureModalDescr": "Խնդրում ենք կապվել մեզ հետ հետևյալ կոնտակտներով"
+        "contactUsFailureModalDescr": "Խնդրում ենք կապվել մեզ հետ հետևյալ կոնտակտներով",
+        "contactUsModalCloseBtn": "փակել"
     },
     "addres": {
         "addresTitle": "Մեր հասցեն",
