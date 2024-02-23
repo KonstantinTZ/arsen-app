@@ -68,7 +68,7 @@ export const ModalForm = ({ setIsModalOpend, isMailSuccess }) => {
             </div>
           </div>
           <div className="modal-footer">
-            <button type="button" className="modal-bottom-btn" onClick={() => { setIsModalOpend(false) }}>Закрыть</button>
+            <button type="button" className="modal-bottom-btn" onClick={() => { setIsModalOpend(false) }}>{t("contaactUs.contactUsModalCloseBtn")}</button>
           </div>
         </div>
       </div>

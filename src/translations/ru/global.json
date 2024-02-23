@@ -171,7 +171,8 @@
         "contactUsSuccessModalTitle": "Ваша заявка успешно отправлена",
         "contactUsSuccessModalDescr": "Наш менеджер свяжется с Вами в течении рабочего дня",
         "contactUsFailureModalTitle": "Произошла ошибка отправки",
-        "contactUsFailureModalDescr": "Пожалуйста свяжитесь с нами по следующим контактам"
+        "contactUsFailureModalDescr": "Пожалуйста свяжитесь с нами по следующим контактам",
+        "contactUsModalCloseBtn": "Закрыть"
     },
     "addres": {
         "addresTitle": "Наш адрес",
