@@ -95,18 +95,18 @@ export function Footer() {
                   facebook
                 </a>
               </li>
-              {/* <li className="footer__item"> */}
-                {/* <a href="https://www.tiktok.com" className='footer__link'> */}
+              <li className="footer__item">
+                <a href="https://www.tiktok.com/@mimoraciram" className='footer__link'>
                   {/* пока не переименован, как только будет сделано вставить ссылку, расскоментировать */}
-                  {/* <img
+                  <img
                     width={24}
                     height={24}
                     src="https://img.icons8.com/material/24/tiktok.png"
                     alt="tiktok"
-                  />&nbsp; */}
-                  {/* tiktok */}
-                {/* </a> */}
-              {/* </li> */}
+                  />&nbsp;
+                  tiktok
+                </a>
+              </li>
               <li className="footer__item">
                 <a href="https://www.instagram.com/mimoracir/" className='footer__link'>
                   <img

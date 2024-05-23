@@ -11,6 +11,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 
 import global_ru from './translations/ru/global.json';
 import global_am from './translations/am/global.json';
+// import global_en from './translations/en/global.json';
 
 import i18next from 'i18next';
 import { I18nextProvider } from 'react-i18next';
@@ -25,6 +26,10 @@ i18next.init({
     am: {
       global: global_am,
     }
+    // ,
+    // en: {
+    //   global: global_en,
+    // }
   }
 
 })
