@@ -1,41 +1,74 @@
-# инфо для поддержки сайта mimoracir.am
+# Инфо для поддержки сайта mimoracir.am
+
+Стек используемых технологий:
+
+1. [ReactJS](https://legacy.reactjs.org/)
+2. [Bootstrap5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+3. Мультиязычность реализована по средствам библиотеки [i18next](https://www.i18next.com/ "официальный сайт библиотеки i18next")
+4. Отправка из формы реализована на библиотеке [EmalJS](https://www.emailjs.com/ "официальный сайт библиотеки EmalJS")
 
 <hr/>
 
-## Как поменять картинки в разделе Галлерея ?
+### Как поменять картинки в разделе Галлерея ?
 
-<ol>
-    <li>
-        Зайти на src/shared/components/Main/Examples/Examples.jsx
-    </li>
-    <li>
-             `<Carousel imgPath={'carousel-1'} imgPath2={'carousel-2'} imgPath3={'carousel-3'}/>`
-             Дописать новый imgPath**(Номер по порядку)**={'carousel-...'}, то чем Вы ранее называлие свои картинки
-    </li>
-    <li>
-        Зайти на src/shared/components/Main/Examples/Carousel/Carousel.jsx
-    </li>
-    <li>
-        Зайти на src/shared/components/Main/Examples/Carousel/Carousel.jsx
-    </li>
-    <li>
-       Вставить в 
-       Carousel({ imgPath, imgPath2, imgPath3, imgPath*(Номер по порядку)* })
-    </li>
-    <li>
-        Вставить новый блок внутрь div.carousel-inner
-        ```JSX
-        <div className="carousel-item" data-bs-interval="2000">
-          <picture>
-            <source srcSet={imgPath ? require(`../../../../../img/${imgPath*(Номер по порядку)*}-300.jpg`) : require(`../../../../../img/big-plug.jpg`)} media="(max-width: 768px)" />
-            <source srcSet={imgPath ? require(`../../../../../img/${imgPath*(Номер по порядку)*}-150.jpg`) : require(`../../../../../img/big-plug.jpg`)} media="(max-width: 486px)" />
-            <img
-              src={imgPath ? require(`../../../../../img/${imgPath*(Номер по порядку)*}.jpg`) : require(`../../../../../img/big-plug.jpg`)}
-              className="d-block w-100"
-              alt="examples" />
-          </picture>
-        </div>
-      </div>
-      ```
-    </li>
-</ol>
+1. Создаем 3 картики для разрых разрешений, большая - (667пикс. x 500пикс.), средняя - (400пикс. x 300пикс.), маленькая - (200пикс. x 150пикс.)
+2. Назывемем соотвтственно большая - _НАЗВАНИЕ_, срендяя _НАЗВАНИЕ_-300, маленькая - _НАЗВАНИЕ_-150
+3. Помещаем их в `src/img`
+4. Зайти на `src/shared/components/Main/Examples/Examples.jsx`
+5. в `<Carousel imgPath={'carousel-1'} imgPath2={'carousel-2'} imgPath3={'carousel-3'}/>` - Дописать новый imgPath\* _Номер по порядку_={'_НАЗВАНИЕ_'}, то чем Вы ранее называлие свои картинки
+6. Зайти на `src/shared/components/Main/Examples/Carousel/Carousel.jsx`
+7. Вставить в `function Carousel({ imgPath, imgPath2, imgPath3, imgPath*(Номер по порядку)* }) { ... }`
+8. Вставить новый блок из п.6 внутрь div.carousel-inner
+9. ````JSX
+           <div className="carousel-item" data-bs-interval="2000">
+             <picture/>
+               <source srcSet={imgPath ? require(`../../../../../img/${imgPath*(Номер по порядку)*}-300.jpg`) : require(`../../../../../img/big-plug.jpg`)} media="(max-width: 768px)" />
+               <source srcSet={imgPath ? require(`../../../../../img/${imgPath*(Номер по порядку)*}-150.jpg`) : require(`../../../../../img/big-plug.jpg`)} media="(max-width: 486px)" />
+               <img
+                 src={imgPath ? require(`../../../../../img/${imgPath*(Номер по порядку)*}.jpg`) : require(`../../../../../img/big-plug.jpg`)}
+                 className="d-block w-100"
+                 alt="examples" />
+             </picture>
+           </div>
+         </div>
+         ```
+   <hr/>
+   ````
+
+### Как изменить данные в разделе Услуги и в модалке, которая открывается?
+
+Карточки услуг и модалка парсятся из `src\translations\am(или ru, или en)\global.json` , соответственно каждый раз когда меняется язык карточки распарсиваются заново.\
+!!! **ВАЖНО** !!!\
+При смене информации в одном на одном языке ОБЯЗАТЕЛЬНО поменять инфо и в других языках !!!\
+Карточки услуг находятся по ключу `"servisesCards"`\
+Комметарии к объектам карточек из `global.json`\
+Ключи для объектов должны быть **ТОЛЬКО** такими
+
+```JSON
+                {
+                "cardId": 1, // должен быть уникальным
+                "cardTitle": "Уборка могилы на кладбище", // название карточки И заглавие модального окна
+                "cardPrice": "Цена: от 15 000 AMD", // цена и в карточке И в модальном окне
+                "cardDescrTitle":"Список выполняемых работ", // Отображается в модальном окне. Даже если в cardListOFWorks- одна строка или нет вовсе НУЖНО оставлять, иначе будет отображаться код от i18next
+                "cardImageGroupName":"card-cleaning", // название группы картинок для этой карточки и двух картинок в модалке
+                "cardMoreBtn" : "Подробнее", // для отображения на кнопке карточки
+                "cardCloseBtn" : "Закрыть", // для отображения на кнопке в модалке
+                "cardListOFWorks": [ // cardListOFWorks - для отображения на ненумерованного списка внутри модалки, строк может быть сколько надо
+                    "Уборка мусора с могилы и по внутреннему периметру ограды",
+                    "Уборка сорной травы",
+                    "Мойка памятника",
+                    "Обработка средством против сорняков",
+                    "Сухая очистка ограды"
+                ]
+
+            }
+```
+
+Как поменять картинки в карточке и модалке?
+Префикс для картинке в карточке и _двух_ картинок внутри модалки должен быть **одинаковым**, для картинки в карточке используется постфикс `-preview`, для картинок в модалке соответстенно `-2` и `-3` **! ! !**\
+Картинки должны располагаться в `src/img`
+Пример:
+
+1. для картики карточки `card-aboniment-preview.jpg` примерный размер (540пикс. х 565пикс.)
+2. для первой картинки внутри модалки этой карточки `card-building-2.jpg`
+3. для второй картинки внутри модалки этой карточки `card-building-3.jpg`
