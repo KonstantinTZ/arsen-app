@@ -41,6 +41,8 @@
     transition:transform .2s ease-in-out ;
 }
 
+
+
 .footer__link:hover {
     transform: scale(1.1);
 }
@@ -51,6 +53,20 @@
 
 .footer__link:active{
     transform: scale(1.1);
+}
+
+@media screen and (max-width:577px) {
+    .footer__link:hover {
+        transform: scale(1);
+    }
+
+    .footer__link:focus {
+        transform: scale(1);
+    }
+
+    .footer__link:active {
+        transform: scale(1);
+    }
 }
 
 

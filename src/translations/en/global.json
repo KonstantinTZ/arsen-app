@@ -1,0 +1,185 @@
+{
+    "navigation":{
+        "gallery": "Gallery",
+        "geography":"Geography",
+        "servises": "Services",
+        "contactUs":"Leave a request"
+    },
+    "hero":{
+        "heroTitle": "MiMoracir - Accompanying your memory with care and respect !",
+        "heroDescr": "Being far away from the cemetery, living in another city or for various reasons not being able to properly look after the grave, you can be confident that the burial place of your relatives and friends looks decent and well-groomed.",
+        "heroButtonText": "Leave a request"
+    },
+    "gallery": {
+        "galleryTitle":"Gallery"
+    },
+    "geography":{
+        "geographyTitle":"Our geography",
+        "geographyDescr":"Our operational area encompasses Yerevan city and the Kotayk region"
+    },
+    "servises": {
+        "servisesTilte": "Our services",
+        "servisesCards": [
+            {
+                "cardId": 1,
+                "cardTitle": "Grave cleaning",
+                "cardPrice": "Prices start from 15 000 AMD",
+                "cardDescrTitle":"List of works",
+                "cardImageGroupName":"card-cleaning",
+                "cardMoreBtn" : "Learn more",
+                "cardCloseBtn" : "Close",
+                "cardListOFWorks": [
+                    "Removal of rubbish from the grave and the inner perimeter of the fence",
+                    "Weed removal",
+                    "Monument washing",
+                    "Treatment with weed control agent",
+                    "Dry fence cleaning"
+                ]
+
+            },
+            {
+                "cardId": 2,
+                "cardTitle": "Construction of a burial place",
+                "cardPrice": "Prices start from 30 000 AMD / м2",
+                "cardDescrTitle":"List of works",
+                "cardImageGroupName":"card-building",
+                "cardMoreBtn" : "Learn more",
+                "cardCloseBtn" : "Close",
+                "cardListOFWorks": [
+                    "Construction of burial places of any type, from iron fences to granite fencing"
+                ]
+
+            },
+            {
+                "cardId": 3,
+                "cardTitle": "Restoration of the burial place",
+                "cardPrice": "Prices start from 5 000 AMD / м2",
+                "cardDescrTitle":"List of works",
+                "cardImageGroupName":"card-restouration",
+                "cardMoreBtn" : "Learn more",
+                "cardCloseBtn" : "Close",
+                "cardListOFWorks": [
+                    "Three-stage grinding of basalt fences",
+                    "Coating of basalt structures with anti-blackening agent",
+                    "Restoration of metal fences (cleaning of rust, priming, painting with high-quality paint)",
+                    "Restoration of concrete constructions"
+                ]
+
+            },
+            {
+                "cardId": 4,
+                "cardTitle": "Greening of the burial place",
+                "cardPrice": "Prices start from 15 000 AMD / м2",
+                "cardDescrTitle":"List of works",
+                "cardImageGroupName":"card-grass",
+                "cardMoreBtn" : "Learn more",
+                "cardCloseBtn" : "Close",
+                "cardListOFWorks": [
+                    "Lawn laying",
+                    "Laying artificial lawn",
+                    "Planting and watering of seasonal flowers",
+                    "Planting of ornamental trees (thuja, spruce, pine)"
+                ]
+
+            },
+            {
+                "cardId": 5,
+                "cardTitle": "Covering the burial place with an embankment cover",
+                "cardPrice": "Prices start from 1 000 AMD / м2",
+                "cardDescrTitle":"List of works",
+                "cardImageGroupName":"card-sand",
+                "cardMoreBtn" : "Learn more",
+                "cardCloseBtn" : "Close",
+                "cardListOFWorks": [
+                    "Weed removal",
+                    "Covering the area with polyethylene",
+                    "Covering the territory with bulk coating (marble crumb, basalt crumb, expanded clay)"
+                ]
+
+            },
+            {
+                "cardId": 6,
+                "cardTitle": "Annual service subscription",
+                "cardPrice": "Prices start from 30 000 AMD",
+                "cardDescrTitle":"List of works",
+                "cardImageGroupName":"card-aboniment",
+                "cardMoreBtn" : "Learn more",
+                "cardCloseBtn" : "Close",
+                "cardListOFWorks": [
+                    "Maintenance of the burial place 3 times a year",
+                    "Maintenance of the burial place 4 times a year",
+                    "Maintenance of the burial place 12 times a year"
+                ]
+
+            },
+            {
+                "cardId": 7,
+                "cardTitle": "Laying flowers at the grave",
+                "cardPrice": "Prices start from от 10 000 AMD",
+                "cardDescrTitle":"List of works",
+                "cardImageGroupName":"card-flowers",
+                "cardMoreBtn" : "Learn more",
+                "cardCloseBtn" : "Close",
+                "cardListOFWorks": [
+                    "Laying 18 carnations",
+                    "Laying of any flowers at your discretion"
+                ]
+
+            },
+            {
+                "cardId": 8,
+                "cardTitle": "Manufacturing of monuments, tombstones, sculptures",
+                "cardPrice": "Prices start from 15 000 AMD / м2",
+                "cardDescrTitle":"List of works",
+                "cardImageGroupName":"card-monument",
+                "cardMoreBtn" : "Learn more",
+                "cardCloseBtn" : "Close",
+                "cardListOFWorks": [
+                    "Selection of tombstone (granite, basalt)",
+                    "Shaping of the stone at the client's discretion",
+                    "Applying images and inscriptions on the monument (color, black and white)",
+                    "Making khachkars"
+                ]
+
+            },
+            {
+                "cardId": 9,
+                "cardTitle": "Monument maintenance",
+                "cardPrice": "Prices start from 30 000 AMD",
+                "cardDescrTitle":"List of works",
+                "cardImageGroupName":"card-monument-restouration",
+                "cardMoreBtn" : "Learn more",
+                "cardCloseBtn" : "Close",
+                "cardListOFWorks": [
+                    "Horizontalization of leaning monuments",
+                    "Grinding and restoration of the image and inscription on the monument",
+                    "Replacing the photo location with a stone of a different rock"
+                ]
+
+            }
+            
+        ]
+    },
+    "contaactUs" : {
+        "contactUsTitle": "Leave a request",
+        "contactUsDesct": "And our manager will contact you during the working day",
+        "contactUsFormInputFieldName": "Your Name *",
+        "contactUsFormInputTel": "Your phone number *",
+        "contactUsFormInputEmail":"Your e-mail",
+        "contactUsFormInputMessage": "Enter any additional information",
+        "contactUsFormButtonText": "Leave a request",
+        "contactUsSuccessModalTitle": "Your request has been successfully submitted",
+        "contactUsSuccessModalDescr": "Our manager will contact you during the working day",
+        "contactUsFailureModalTitle": "A sending error occurred",
+        "contactUsFailureModalDescr": "Please contact us at the following contacts",
+        "contactUsModalCloseBtn": "Close"
+    },
+    "addres": {
+        "addresTitle": "Addres",
+        "addresDescr": "Armenia, Charentsavan, 8th block"
+    },
+    "footer": {
+        "footerContactsTitle": "Contacts",
+        "footerSocialTitle": "Social media"
+    }
+}
