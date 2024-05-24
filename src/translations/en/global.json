@@ -1,159 +1,159 @@
 {
     "navigation":{
-        "gallery": "Галерея",
-        "geography":"География работ",
-        "contactUs":"Оставьте заявку"
+        "gallery": "Gallery",
+        "geography":"Geography",
+        "servises": "Services",
+        "contactUs":"Leave a request"
     },
     "hero":{
-        "heroTitle": "MiMoracir - сопровождаем вашу память с заботой и уважением !",
-        "heroDescr": "Находясь вдали от кладбища, проживая в другом городе или по различным причинам не имея возможности должным образом присматривать за могилой, Вы сможете быть спокойны, что место погребения родных и близких людей выглядит достойно и ухоженно.",
-        "heroButtonText": "Оставить заявку"
+        "heroTitle": "MiMoracir - Accompanying your memory with care and respect !",
+        "heroDescr": "Being far away from the cemetery, living in another city or for various reasons not being able to properly look after the grave, you can be confident that the burial place of your relatives and friends looks decent and well-groomed.",
+        "heroButtonText": "Leave a request"
     },
     "gallery": {
-        "galleryTitle":"Галерея"
+        "galleryTitle":"Gallery"
     },
     "geography":{
-        "geographyTitle":"Наша география работ",
-        "geographyDescr":"Мы работаем на территории города Ереван и Котайкской области"
+        "geographyTitle":"Our geography",
+        "geographyDescr":"Our operational area encompasses Yerevan city and the Kotayk region"
     },
     "servises": {
-        "servisesTilte": "Наши услуги",
+        "servisesTilte": "Our services",
         "servisesCards": [
             {
                 "cardId": 1,
-                "cardTitle": "Уборка могилы на кладбище",
-                "cardPrice": "Цена: от 15 000 AMD",
-                "cardDescrTitle":"Список выполняемых работ",
+                "cardTitle": "Grave cleaning",
+                "cardPrice": "Prices start from 15 000 AMD",
+                "cardDescrTitle":"List of works",
                 "cardImageGroupName":"card-cleaning",
-                "cardMoreBtn" : "Подробнее",
-                "cardCloseBtn" : "Закрыть",
+                "cardMoreBtn" : "Learn more",
+                "cardCloseBtn" : "Close",
                 "cardListOFWorks": [
-                    "Уборка мусора с могилы и по внутреннему периметру ограды",
-                    "Уборка сорной травы",
-                    "Мойка памятника",
-                    "Обработка средством против сорняков",
-                    "Сухая очистка ограды"
+                    "Removal of rubbish from the grave and the inner perimeter of the fence",
+                    "Weed removal",
+                    "Monument washing",
+                    "Treatment with weed control agent",
+                    "Dry fence cleaning"
                 ]
 
             },
             {
                 "cardId": 2,
-                "cardTitle": "Строительство места захоронения",
-                "cardPrice": "Цена: от 30 000 AMD / м2",
-                "cardDescrTitle":"Список выполняемых работ",
+                "cardTitle": "Construction of a burial place",
+                "cardPrice": "Prices start from 30 000 AMD / м2",
+                "cardDescrTitle":"List of works",
                 "cardImageGroupName":"card-building",
-                "cardMoreBtn" : "Подробнее",
-                "cardCloseBtn" : "Закрыть",
+                "cardMoreBtn" : "Learn more",
+                "cardCloseBtn" : "Close",
                 "cardListOFWorks": [
-                    "Строительство мест захоронения любых типов",
-                    "Начиная от железных оград, заканчивая гранитными ограждениями"
+                    "Construction of burial places of any type, from iron fences to granite fencing"
                 ]
 
             },
             {
                 "cardId": 3,
-                "cardTitle": "Реставрация места захоронения",
-                "cardPrice": "Цена: от 5 000 AMD / м2",
-                "cardDescrTitle":"Список выполняемых работ",
+                "cardTitle": "Restoration of the burial place",
+                "cardPrice": "Prices start from 5 000 AMD / м2",
+                "cardDescrTitle":"List of works",
                 "cardImageGroupName":"card-restouration",
-                "cardMoreBtn" : "Подробнее",
-                "cardCloseBtn" : "Закрыть",
+                "cardMoreBtn" : "Learn more",
+                "cardCloseBtn" : "Close",
                 "cardListOFWorks": [
-                    "Трехступенчатая шлифовка базальтовых ограждений",
-                    "Покрытие конструкций из базальта средством против почернения",
-                    "Реставрация металлических оградок (очистка от ржавчины, грунтовка, покраска высококачественной краской)",
-                    "Восстановление бетонных конструкций"
+                    "Three-stage grinding of basalt fences",
+                    "Coating of basalt structures with anti-blackening agent",
+                    "Restoration of metal fences (cleaning of rust, priming, painting with high-quality paint)",
+                    "Restoration of concrete constructions"
                 ]
 
             },
             {
                 "cardId": 4,
-                "cardTitle": "Озеленение места захоронений",
-                "cardPrice": "Цена: от 15 000 AMD / м2",
-                "cardDescrTitle":"Список выполняемых работ",
+                "cardTitle": "Greening of the burial place",
+                "cardPrice": "Prices start from 15 000 AMD / м2",
+                "cardDescrTitle":"List of works",
                 "cardImageGroupName":"card-grass",
-                "cardMoreBtn" : "Подробнее",
-                "cardCloseBtn" : "Закрыть",
+                "cardMoreBtn" : "Learn more",
+                "cardCloseBtn" : "Close",
                 "cardListOFWorks": [
-                    "Озеленение живым газоном",
-                    "Озеленение искусственным газоном",
-                    "Посадка и полив сезонных цветов",
-                    "Посадка декоративных деревьев (туи, ели, сосны)"
+                    "Lawn laying",
+                    "Laying artificial lawn",
+                    "Planting and watering of seasonal flowers",
+                    "Planting of ornamental trees (thuja, spruce, pine)"
                 ]
 
             },
             {
                 "cardId": 5,
-                "cardTitle": "Покрытие места захоронения насыпным покрытием",
-                "cardPrice": "Цена: от 1 000 AMD / м2",
-                "cardDescrTitle":"Список выполняемых работ",
+                "cardTitle": "Covering the burial place with an embankment cover",
+                "cardPrice": "Prices start from 1 000 AMD / м2",
+                "cardDescrTitle":"List of works",
                 "cardImageGroupName":"card-sand",
-                "cardMoreBtn" : "Подробнее",
-                "cardCloseBtn" : "Закрыть",
+                "cardMoreBtn" : "Learn more",
+                "cardCloseBtn" : "Close",
                 "cardListOFWorks": [
-                    "Очистка участка от сорняков",
-                    "Покрытие участка полиэтиленом",
-                    "Покрытие участка насыпным покрытием (мраморная крошка, базальтовая крошка, керамзит)"
+                    "Weed removal",
+                    "Covering the area with polyethylene",
+                    "Covering the territory with bulk coating (marble crumb, basalt crumb, expanded clay)"
                 ]
 
             },
             {
                 "cardId": 6,
-                "cardTitle": "Абонемент на годовое обслуживание",
-                "cardPrice": "Цена: от 30 000 AMD",
-                "cardDescrTitle":"Список выполняемых работ",
+                "cardTitle": "Annual service subscription",
+                "cardPrice": "Prices start from 30 000 AMD",
+                "cardDescrTitle":"List of works",
                 "cardImageGroupName":"card-aboniment",
-                "cardMoreBtn" : "Подробнее",
-                "cardCloseBtn" : "Закрыть",
+                "cardMoreBtn" : "Learn more",
+                "cardCloseBtn" : "Close",
                 "cardListOFWorks": [
-                    "Обслуживание захоронения 3 раза в год",
-                    "Обслуживание захоронения 4 раза в год",
-                    "Обслуживание захоронения 12 раз в год"
+                    "Maintenance of the burial place 3 times a year",
+                    "Maintenance of the burial place 4 times a year",
+                    "Maintenance of the burial place 12 times a year"
                 ]
 
             },
             {
                 "cardId": 7,
-                "cardTitle": "Возложение цветов к могиле",
-                "cardPrice": "Цена: от 10 000 AMD",
-                "cardDescrTitle":"Список выполняемых работ",
+                "cardTitle": "Laying flowers at the grave",
+                "cardPrice": "Prices start from от 10 000 AMD",
+                "cardDescrTitle":"List of works",
                 "cardImageGroupName":"card-flowers",
-                "cardMoreBtn" : "Подробнее",
-                "cardCloseBtn" : "Закрыть",
+                "cardMoreBtn" : "Learn more",
+                "cardCloseBtn" : "Close",
                 "cardListOFWorks": [
-                    "Возложение 18 гвоздик",
-                    "Возложение любых цветов на усмотрение клиент"
+                    "Laying 18 carnations",
+                    "Laying of any flowers at your discretion"
                 ]
 
             },
             {
                 "cardId": 8,
-                "cardTitle": "Изготовление памятников, надгробных камней, скульптур",
-                "cardPrice": "Цена: от 15 000 AMD / м2",
-                "cardDescrTitle":"Список выполняемых работ",
+                "cardTitle": "Manufacturing of monuments, tombstones, sculptures",
+                "cardPrice": "Prices start from 15 000 AMD / м2",
+                "cardDescrTitle":"List of works",
                 "cardImageGroupName":"card-monument",
-                "cardMoreBtn" : "Подробнее",
-                "cardCloseBtn" : "Закрыть",
+                "cardMoreBtn" : "Learn more",
+                "cardCloseBtn" : "Close",
                 "cardListOFWorks": [
-                    "Подбор надгробного камня (гранит, базальт)",
-                    "Придание формы камню на усмотрение клиента",
-                    "Нанесение изображения и надписи на памятник (цветное, черно-белое)",
-                    "Изготовление хачкаров"
+                    "Selection of tombstone (granite, basalt)",
+                    "Shaping of the stone at the client's discretion",
+                    "Applying images and inscriptions on the monument (color, black and white)",
+                    "Making khachkars"
                 ]
 
             },
             {
                 "cardId": 9,
-                "cardTitle": "Обслуживание памятников",
-                "cardPrice": "Цена: от 30 000 AMD",
-                "cardDescrTitle":"Список выполняемых работ",
+                "cardTitle": "Monument maintenance",
+                "cardPrice": "Prices start from 30 000 AMD",
+                "cardDescrTitle":"List of works",
                 "cardImageGroupName":"card-monument-restouration",
-                "cardMoreBtn" : "Подробнее",
-                "cardCloseBtn" : "Закрыть",
+                "cardMoreBtn" : "Learn more",
+                "cardCloseBtn" : "Close",
                 "cardListOFWorks": [
-                    "Приведение в горизонтальное положение покосившихся памятников",
-                    "Шлифовка и реставрация изображения и надписи на памятнике",
-                    "Замена места фотографии на камень другой породы"
+                    "Horizontalization of leaning monuments",
+                    "Grinding and restoration of the image and inscription on the monument",
+                    "Replacing the photo location with a stone of a different rock"
                 ]
 
             }
@@ -161,25 +161,25 @@
         ]
     },
     "contaactUs" : {
-        "contactUsTitle": "Оставьте заявку",
-        "contactUsDesct": "И наш менеджер свяжется с Вами в течении рабочего дня",
-        "contactUsFormInputFieldName": "Ваше Имя *",
-        "contactUsFormInputTel": "Ваш номер телефона *",
-        "contactUsFormInputEmail":"Ваш e-mail",
-        "contactUsFormInputMessage": "Введите дополнительную информацию",
-        "contactUsFormButtonText": "Оставить заявку",
-        "contactUsSuccessModalTitle": "Ваша заявка успешно отправлена",
-        "contactUsSuccessModalDescr": "Наш менеджер свяжется с Вами в течении рабочего дня",
-        "contactUsFailureModalTitle": "Произошла ошибка отправки",
-        "contactUsFailureModalDescr": "Пожалуйста свяжитесь с нами по следующим контактам",
-        "contactUsModalCloseBtn": "Закрыть"
+        "contactUsTitle": "Leave a request",
+        "contactUsDesct": "And our manager will contact you during the working day",
+        "contactUsFormInputFieldName": "Your Name *",
+        "contactUsFormInputTel": "Your phone number *",
+        "contactUsFormInputEmail":"Your e-mail",
+        "contactUsFormInputMessage": "Enter any additional information",
+        "contactUsFormButtonText": "Leave a request",
+        "contactUsSuccessModalTitle": "Your request has been successfully submitted",
+        "contactUsSuccessModalDescr": "Our manager will contact you during the working day",
+        "contactUsFailureModalTitle": "A sending error occurred",
+        "contactUsFailureModalDescr": "Please contact us at the following contacts",
+        "contactUsModalCloseBtn": "Close"
     },
     "addres": {
-        "addresTitle": "Наш адрес",
-        "addresDescr": "8-й кв-л, Чаренцаван"
+        "addresTitle": "Addres",
+        "addresDescr": "Armenia, Charentsavan, 8th block"
     },
     "footer": {
-        "footerContactsTitle": "Контакты",
-        "footerSocialTitle": "Мы в социальных сетях"
+        "footerContactsTitle": "Contacts",
+        "footerSocialTitle": "Social media"
     }
 }

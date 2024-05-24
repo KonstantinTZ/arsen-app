@@ -4,7 +4,7 @@ import { Navigation } from './Navigation';
 
 export function Header() {
   return (
-    <header className='header sticky-top bg-body'>
+    <header className='header bg-body'>
     <div className='container header__container'>
       <Navigation />
     </div>
