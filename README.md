@@ -9,10 +9,8 @@
         Зайти на src/shared/components/Main/Examples/Examples.jsx
     </li>
     <li>
-        <code>
-            <Carousel imgPath={'carousel-1'} imgPath2={'carousel-2'} imgPath3={'carousel-3'}/>
-            Дописать новый imgPath*(Номер по порядку)*={'carousel-...'}, то чем Вы ранее называлие свои картинки
-        </code>
+             `<Carousel imgPath={'carousel-1'} imgPath2={'carousel-2'} imgPath3={'carousel-3'}/>`
+             Дописать новый imgPath**(Номер по порядку)**={'carousel-...'}, то чем Вы ранее называлие свои картинки
     </li>
     <li>
         Зайти на src/shared/components/Main/Examples/Carousel/Carousel.jsx
@@ -26,6 +24,7 @@
     </li>
     <li>
         Вставить новый блок внутрь div.carousel-inner
+        ```JSX
         <div className="carousel-item" data-bs-interval="2000">
           <picture>
             <source srcSet={imgPath ? require(`../../../../../img/${imgPath*(Номер по порядку)*}-300.jpg`) : require(`../../../../../img/big-plug.jpg`)} media="(max-width: 768px)" />
@@ -37,5 +36,6 @@
           </picture>
         </div>
       </div>
+      ```
     </li>
 </ol>
